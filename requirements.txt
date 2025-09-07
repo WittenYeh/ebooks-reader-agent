@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Core Application Framework
+gradio==4.29.0
+
+# PDF Processing
+# 我们现在可以使用最新的 marker-pdf 版本
+marker-pdf~=1.3
+PyMuPDF~=1.24
+
+# AI and Language Model Integration
+# 直接使用谷歌官方库，移除了所有 langchain 相关的包
+google-generativeai
+
+# Video Generation and Processing
+moviepy~=1.0.3
+requests~=2.32
+websocket-client~=1.8
+
+# Data Handling and Utilities
+pandas~=2.2
+termcolor~=2.4
+# pydantic 用于数据验证，是代码健壮性的关键
+pydantic~=2.7
